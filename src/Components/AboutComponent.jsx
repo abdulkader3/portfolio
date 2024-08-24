@@ -1,15 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./HomeCompo.css";
-import Aos from "aos";
 import "aos/dist/aos.css";
 
 const AboutComponent = () => {
 
  
-    useEffect(()=>{
-      Aos.init();
-      Aos.refresh();
-    },[])
+
   
 
 
@@ -52,7 +48,7 @@ const AboutComponent = () => {
                 <p className=" text-[16px] font-poppins text-start font-normal ">
                   designs.
                 </p>
-                <p className=" text-[16px] font-poppins text-start font-normal pt-[11px] ">
+                <p className=" text-[16px] font-poppins text-start font-normal pt-[11px] "> 
                   My aim is to bring across your message and identity in the
                   most creative way. I created web design for many famous brand
                   companies.
