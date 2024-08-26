@@ -11,6 +11,12 @@ export default {
       
 
     },
+    container: {
+      center: true,
+      screens: {
+        '2xl': '100%',
+      },
+    },
     extend: {},
   },
   plugins: [],
