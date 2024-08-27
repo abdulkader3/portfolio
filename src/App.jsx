@@ -5,7 +5,8 @@ import Home from './Pages/Home'
 import LayoutOne from './Layout/LayoutOne'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
-import { useEffect, useRef } from 'react'
+import AnimatedCursor from 'react-animated-cursor'
+
 
 function App() {
   const shanto = createBrowserRouter(
@@ -21,51 +22,39 @@ function App() {
   )
 
 
-   // Define the CustomCursor component
-   const CustomCursor = () => {
-    const cursorRef = useRef(null);
-    const cursorLineRef = useRef(null);
+   
 
-    useEffect(() => {
-      const handleMouseMove = (e) => {
-        const posX = e.clientX;
-        const posY = e.clientY;
-
-        if (cursorRef.current && cursorLineRef.current) {
-          cursorRef.current.style.left = `${posX}px`;
-          cursorRef.current.style.top = `${posY}px`;
-
-          cursorLineRef.current.style.left = `${posX}px`;
-          cursorLineRef.current.style.top = `${posY}px`;
-        }
-      };
-
-      window.addEventListener("mousemove", handleMouseMove);
-
-      return () => {
-        window.removeEventListener("mousemove", handleMouseMove);
-      };
-    }, []);
-
-    return (
-      <>
-        {/* JSX for cursor effect */}
-        <div
-          ref={cursorRef}
-          className="cursur w-[10px] h-[10px] bg-white fixed z-50"
-        ></div>
-        <div ref={cursorLineRef} className="cursurLine fixed z-40"></div>
-      </>
-    );
-  };
+  
   
 
   return (
     <>
 
-<CustomCursor />
+
     
     <RouterProvider router={shanto}/>
+
+    <AnimatedCursor
+  innerSize={11}
+  outerSize={20}
+  color="255, 255, 255"  
+  outerAlpha={0.2}
+  innerScale={0.7}
+  outerScale={3}
+  clickables={[
+    'a',
+    'input[type="text"]',
+    'input[type="email"]',
+    'input[type="number"]',
+    'input[type="submit"]',
+    'input[type="image"]',
+    'label[for]',
+    'select',
+    'textarea',
+    'button',
+    '.link'
+  ]}
+/>
       
     </>
   )

@@ -19,10 +19,10 @@ const AboutComponent = () => {
       <img src="photos/Abdulkader.png" alt="me" className="w-full md:w-[600px] h-auto" />
     </div>
   </div>
-  <div className="w-full md:w-1/2 flex flex-col justify-center p-8 md:p-16">
-    <h2 className="text-[30px] md:text-[50px] font-poppins font-medium mb-[11px]">Who am I?</h2>
-    <p className="text-[16px] font-poppins mb-4">I'm a Creative Director and UI/UX Designer from Sydney, Australia...</p>
-    <p className="text-[16px] font-poppins mb-4">My aim is to bring across your message...</p>
+  <div className="w-full aboutSone md:w-1/2 flex flex-col justify-center p-8 md:p-16">
+    <h2 className="text-[30px] aboutOne md:text-[50px] font-poppins font-medium mb-[11px]">Who am I?</h2>
+    <p className="text-[16px] aboutTow  font-poppins mb-4">I'm a Creative Director and UI/UX Designer from Sydney, Australia...</p>
+    <p className="text-[16px] aboutThree font-poppins mb-4">My aim is to bring across your message...</p>
   </div>
 </div>
 

@@ -1,0 +1,36 @@
+@media (max-width: 575.98px) {
+    .fore .five {
+        font-size: 34px;
+    }
+    .six .seven {
+        margin-left: 50px;
+    }
+   .six .egiht {
+        gap: 10px;
+        margin-left: 44px;
+    }
+    .nine .ten {
+        bottom: 1230px;
+    }
+    .nine .ten {
+        right: 34px;
+        width: 260px;
+    }
+    .w-\[150px\] {
+        width: 260px;
+    }
+    .navOne .navTow {
+        display: none;
+    }
+    .aboutSone .aboutTow{
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    .aboutSone .aboutThree{
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+}
