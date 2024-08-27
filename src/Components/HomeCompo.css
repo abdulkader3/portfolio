@@ -16,21 +16,26 @@
         right: 34px;
         width: 260px;
     }
-    .w-\[150px\] {
-        width: 260px;
-    }
+ 
     .navOne .navTow {
         display: none;
+    }
+    .aboutSone .aboutOne{
+        margin-top: -44px;
     }
     .aboutSone .aboutTow{
         font-size: 12px;
         font-family: "Poppins", sans-serif;
         font-weight: 500;
+
     }
     .aboutSone .aboutThree{
         font-size: 12px;
         font-family: "Poppins", sans-serif;
         font-weight: 500;
+    }
+    .aboutPhoto .aboutImg{
+        margin-top: -32px;
     }
     
 }
