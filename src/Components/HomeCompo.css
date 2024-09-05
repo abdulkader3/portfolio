@@ -1,20 +1,35 @@
 @media (max-width: 575.98px) {
     .fore .five {
-        font-size: 34px;
+        font-size: 23px;
+        padding-left: 30px;
+        text-align: start;
     }
     .six .seven {
-        margin-left: 50px;
+        /* margin-left: -131px; */
+        margin-left: 10px;
+       
     }
+    .fore{
+        padding-top: 20px;
+  padding-left: 55px;
+      
+    }
+    .six{
+        
+        bottom: 0;
+        left: 50px;
+    }
+    
    .six .egiht {
         gap: 10px;
-        margin-left: 44px;
+        margin-left: 20px;
     }
     .nine .ten {
-        bottom: 1230px;
+        top: -44px;
     }
     .nine .ten {
-        right: 34px;
-        width: 260px;
+        right: 67px;
+        width: 190px;
     }
  
     .navOne .navTow {
@@ -30,12 +45,41 @@
 
     }
     .aboutSone .aboutThree{
-        font-size: 12px;
+        font-size: 10px;
         font-family: "Poppins", sans-serif;
         font-weight: 500;
     }
     .aboutPhoto .aboutImg{
-        margin-top: -32px;
+        margin-top: -20px;
+        width: 177px;
+        margin-left: 83px;    }
+
+        .aboutfive{
+            z-index: 99;
+        }
+
+
+    .aboutfive.aboutsix{
+        width: 250px;
     }
+    .aboutnine .aboutten{
+        font-size: 10px;
+    }
+    .aboutsaven.aboutnine{
+        margin-top: -10px;
+    }
+    .aboutegiht{
+        width: 170px;
+        margin-left: 100px;
+        margin-top: -60px;
+    }
+
+    .aboutbigtext{
+      font-size: 5px;
+    }
+
+    
+
+
     
 }
