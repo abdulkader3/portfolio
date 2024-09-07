@@ -4,82 +4,156 @@
         padding-left: 30px;
         text-align: start;
     }
+
     .six .seven {
-        /* margin-left: -131px; */
         margin-left: 10px;
-       
     }
-    .fore{
+
+    .fore {
         padding-top: 20px;
-  padding-left: 55px;
-      
+        padding-left: 55px;
     }
-    .six{
-        
+
+    .six {
         bottom: 0;
         left: 50px;
     }
-    
-   .six .egiht {
+
+    .six .egiht {
         gap: 10px;
         margin-left: 20px;
     }
+
     .nine .ten {
         top: -44px;
-    }
-    .nine .ten {
         right: 67px;
         width: 190px;
     }
- 
+
     .navOne .navTow {
         display: none;
     }
-    .aboutSone .aboutOne{
+
+    .aboutSone .aboutOne {
         margin-top: -44px;
     }
-    .aboutSone .aboutTow{
+
+    .aboutSone .aboutTow {
         font-size: 12px;
         font-family: "Poppins", sans-serif;
         font-weight: 500;
-
     }
-    .aboutSone .aboutThree{
+
+    .aboutSone .aboutThree {
         font-size: 10px;
         font-family: "Poppins", sans-serif;
         font-weight: 500;
     }
-    .aboutPhoto .aboutImg{
+
+    .aboutPhoto .aboutImg {
         margin-top: -20px;
         width: 177px;
-        margin-left: 83px;    }
+        margin-left: 83px;
+    }
 
-        .aboutfive{
-            z-index: 99;
-        }
+    .aboutfive {
+        z-index: 99;
+    }
 
-
-    .aboutfive.aboutsix{
+    .aboutfive.aboutsix {
         width: 250px;
     }
-    .aboutnine .aboutten{
+
+    .aboutnine .aboutten {
         font-size: 10px;
     }
-    .aboutsaven.aboutnine{
+
+    .aboutsaven.aboutnine {
         margin-top: -10px;
     }
-    .aboutegiht{
+
+    .aboutegiht {
         width: 170px;
         margin-left: 100px;
         margin-top: -60px;
     }
 
-    .aboutbigtext{
-      font-size: 5px;
+    .aboutbigtext {
+        font-size: 5px;
     }
 
-    
+    .aboutOne {
+        margin-top: -250px;
+    }
 
+    .aboutthree {
+        margin-left: 55px;
+    }
 
+    .aboutfour {
+        margin-left: 55px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .aboutfive {
+        margin-right: 50px;
+    }
+
+    .aboutPhoto .aboutsix {
+        margin-top: 25px;
+        display: none;
+    }
+
+    .aboutthree {
+        display: none;
+    }
+
+    .aboutfour {
+        display: none;
+    }
+
+    .aboutegiht {
+        margin-top: 20px;
+        padding-right: 100px;
+        width: 260px;
+    }
+
+        /* Center the text within this section */
+        .fore .five {
+            font-size: 23px;
+            padding-left: 0; /* Remove any left padding */
+            text-align: center; /* Center the text */
+        }
     
+        .six .seven {
+            margin-left: 0; /* Ensure no left margin is pushing it */
+            padding-left: 0;
+        }
+    
+        .fore {
+            padding-top: 20px;
+            padding-left: 0; /* Remove left padding */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+        }
+    
+        .six {
+            bottom: 0;
+            left: 0; /* Ensure it's aligned properly */
+        }
+    
+        .aboutegiht {
+            width: 260px;
+            margin: 0 auto; /* Center it horizontally */
+            text-align: center; /* Center the text */
+            padding-right: 0; /* Adjust padding */
+            margin-top: 20px;
+        }
+    
+        .aboutbigtext {
+            font-size: 12px; /* Increase from 5px */
+            text-align: center; /* Center description text */
+        }
 }

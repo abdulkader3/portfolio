@@ -4,12 +4,13 @@ import "./HomeCompo.css";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import HomePage from "./subcompo/HomePage";
+import ProjectPage from "./ProjectPage";
 
 const HomeComponent = () => {
   return (
     <>
       {/* main container start */}
-      <div className="container one snap-y snap-mandatory overflow-y-auto h-[100vh] w-full">
+      <div className="container one md:snap-y md:snap-mandatory md:overflow-y-auto md:h-[100vh] w-full">
 
         {/* Section one start */}
         <section
@@ -21,14 +22,21 @@ const HomeComponent = () => {
 
 
         {/* section tow start */}
-        <section id="section2" className="tow h-[100vh] snap-start">
+        <section id="section2" className="tow  md:h-[100vh] md:snap-start">
           <About />
         </section>
         {/* section tow end */}
 
 
         {/* section three start */}
-        <section id="section3" className=" three h-[100vh] snap-start">
+        <section id="section3" className=" three md:h-[100vh] md:snap-start">
+          <ProjectPage/>
+        </section>
+        {/* section three end */}
+
+
+        {/* section three start */}
+        <section id="section4" className=" three md:h-[100vh] md:snap-start">
           <Contact />
         </section>
         {/* section three end */}
