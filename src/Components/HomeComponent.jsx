@@ -15,7 +15,7 @@ const HomeComponent = () => {
         {/* Section one start */}
         <section
           id="section1"
-          className="tow h-[100vh] snap-start w-full flex flex-col md:flex-row">
+          className="tow md:h-[100vh] snap-start w-full flex flex-col md:flex-row">
           <HomePage />
         </section>
         {/* section one end */}

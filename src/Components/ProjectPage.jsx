@@ -5,7 +5,7 @@ const ProjectPage = () => {
   return (
     <>
       <div className="w-full flex justify-center items-center min-h-screen bg-black p-4">
-        <div className="max-w-[1000px] w-full grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="md:w-full project md:flex md:flex-wrap md:gap-12 md:pt-10 md:pl-[140px] md:justify-center md:pr-[140px] ">
           {/* Project card one */}
           <div className="card bg-gray-800 p-6 rounded-lg shadow-md text-white">
             <div className="card__content">

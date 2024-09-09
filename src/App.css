@@ -68,7 +68,7 @@
     position: relative;
     width: 400px;
     height: 266.67px;
-    background: url(/photos/projectPhotoTow.jpg) ;
+    background: url(/public/photos/projectPhotoThree.jpg) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@
     position: relative;
     width: 400px;
     height: 266.67px;
-    background: url(/photos/projectPhotoTow.jpg) ;
+    background: url(/public/photos/projectPhotoFour.jpg) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,7 +198,7 @@
     position: relative;
     width: 400px;
     height: 266.67px;
-    background: url(/photos/projectPhotoTow.jpg) ;
+    background: url(/public/photos/projectPhotoTow.jpg) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

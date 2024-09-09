@@ -6,7 +6,7 @@ const AboutComponent = () => {
   return (
     <>
       <div className="flex aboutOne flex-col md:flex-row bg-black text-white">
-        <div className="w-full md:w-1/2 abouttow flex flex-col justify-center p-8 md:p-16">
+        <div className="w-full md:w-1/2 abouttow md:flex md:flex-col md:justify-center md:p-16">
           <h1 className="text-[30px] md:text-[40px] aboutthree font-roboto font-bold">
             About Me
           </h1>
