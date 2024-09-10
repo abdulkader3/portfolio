@@ -11,14 +11,12 @@ const ProjectPage = () => {
             <div className="card__content">
               <Link to="https://e-commerce-gamma-nine-10.vercel.app/">
                 <p className="card__title font-bold text-xl mb-2">
-                  Transform Your Online Business with Our Cutting-Edge eCommerce
-                  Platform
+                  Stay Informed and Inspired with NewsPro
                 </p>
                 <p className="card__description">
-                  Boost your online business with our eCommerce platform. Enjoy
-                  seamless integration, stunning design, and powerful analytics.
-                  With secure payments and personalized experiences, turn your
-                  store into a conversion powerhouse.
+                  Your go-to platform for the latest in fashion, technology,
+                  travel, and lifestyle. Dive into trending stories, expert
+                  insights, and global updates, all in one place!
                 </p>
               </Link>
             </div>
@@ -26,11 +24,15 @@ const ProjectPage = () => {
           {/* Project card two */}
           <div className="card2 bg-gray-800 p-6 rounded-lg shadow-md text-white">
             <div className="card2__content">
-              <p className="card2__title font-bold text-xl mb-2">Card Title</p>
+              <p className="card2__title font-bold text-xl mb-2">
+                Premium Web Hosting for Your Website
+              </p>
               <p className="card2__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+                Unlock the Power of the Web with Our Premium Hosting Solutions.
+                Fast, reliable, and secure hosting tailored for businesses of
+                all sizes. Get 24/7 support, seamless domain registration, and
+                top-tier SEO tools to elevate your online presence. Start
+                building your website today!
               </p>
               <Link to=""></Link>
             </div>

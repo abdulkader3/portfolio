@@ -52,9 +52,9 @@ const HomePage = () => {
 
 
         {/* Image Section */}
-        <div className="flex nine items-end justify-center sm:w-full md:w-1/2 relative w-full h-[100vh] ">
+        <div className="md:flex nine md:items-end md:justify-end sm:w-full md:w-full md:h-[100vh] ">
           <img
-            className="w-[150px] ten  sm:w-[200px] md:w-[400px] lg:w-[700px] absolute bottom-0 right-0 h-auto"
+            className=" ten  sm:w-[200px] md:w-[400px] lg:w-[700px]  h-auto"
             src="photos/shanto.png"
             alt="photos"
           />
