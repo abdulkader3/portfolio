@@ -32,17 +32,17 @@ const HomePage = () => {
               </li>
               <li>
                 <Link to="https://x.com/Kader_9595">
-                  <FaXTwitter className="text-white text-[20px] sm:text-[25px] md:text-[30px] eghtTow lg:text-[40px] hover:scale-110 transition-all" />
+                  <FaXTwitter className="text-white text-[20px] eghtOne sm:text-[25px] md:text-[30px] eghtTow lg:text-[40px] hover:scale-110 transition-all" />
                 </Link>
               </li>
               <li>
                 <Link to="https://www.linkedin.com/in/andul-kader-b47a1517a/">
-                  <FaLinkedinIn className="text-white text-[20px] eghtThree sm:text-[25px] md:text-[30px] lg:text-[40px] hover:scale-110 transition-all" />
+                  <FaLinkedinIn className="text-white text-[20px] eghtOne eghtThree sm:text-[25px] md:text-[30px] lg:text-[40px] hover:scale-110 transition-all" />
                 </Link>
               </li>
               <li>
                 <Link to="https://github.com/abdulkader3">
-                  <FiGithub className="text-white text-[20px] sm:text-[25px] eghtFour md:text-[30px] lg:text-[40px] hover:scale-110 transition-all" />
+                  <FiGithub className="text-white text-[20px] eghtOne sm:text-[25px] eghtFour md:text-[30px] lg:text-[40px] hover:scale-110 transition-all" />
                 </Link>
               </li>
             </ul>
