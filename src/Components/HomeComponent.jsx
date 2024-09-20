@@ -36,7 +36,7 @@ const HomeComponent = () => {
 
 
         {/* section three start */}
-        <section id="section4" className=" three md:h-[100vh] md:snap-start md:mt-[220px]">
+        <section id="section4" className=" three md:h-[100vh] md:snap-start">
           <Contact />
         </section>
         {/* section three end */}

@@ -3,7 +3,7 @@
     position: relative;
     width: 400px;
     height: 266.67px;
-    background: url(/photos/projectPhotoOne.jpg) ;
+    background: url(/public/photos/one.png) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@
     position: relative;
     width: 400px;
     height: 266.67px;
-    background: url(/public/photos/projectPhotoThree.jpg) ;
+    background: url(/public/photos/tow.png) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@
     position: relative;
     width: 400px;
     height: 266.67px;
-    background: url(/public/photos/projectPhotoFour.jpg) ;
+    background: url(/public/photos/three.png) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,7 +198,7 @@
     position: relative;
     width: 400px;
     height: 266.67px;
-    background: url(/public/photos/projectPhotoTow.jpg) ;
+    background: url(/public/photos/four.png) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
