@@ -11,7 +11,7 @@ const AboutComponent = () => {
             About Me
           </h1>
           <div className="w-[100px] md:w-[200px] h-[2px] aboutfour md:h-[3px] bg-white mb-8"></div>
-          <div className="overflow-hidden w-full aboutPhoto mt-[-30px] aboutfive">
+          <div className="overflow-hidden w-full aboutPhoto aboutfive mt-auto">
             <img
               src="photos/Abdulkader.png"
               alt="me"
